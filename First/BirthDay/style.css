@@ -1,0 +1,43 @@
+*{
+padding: 0;
+margin: 0;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.bring li {
+    font-family: "EB Garamond", serif;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(164, 250, 250, 0.541);
+
+}
+
+header{
+   text-align: center;
+   background-color: aqua;
+   height: 50px
+}
+
+.location a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+li{
+    font-size: larger;
+}
+
+li:nth-child(4){
+    text-decoration: overline;
+}
